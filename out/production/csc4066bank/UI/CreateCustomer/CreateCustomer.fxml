@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<GridPane
+        alignment="center"
+        hgap="10"
+        vgap="10"
+        xmlns:fx="http://javafx.com/fxml/1"
+        xmlns="http://javafx.com/javafx/8.0.121"
+        fx:controller="UI.CreateCustomer.CreateCustomerController">
+    <Label
+            text="SSN: "
+            GridPane.columnIndex="0"
+            GridPane.rowIndex="0" />
+    <TextField
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="0"
+            fx:id="SSN_TextField"/>
+
+    <Label text="Address:"
+           GridPane.columnIndex ="0"
+           GridPane.rowIndex="1"/>
+    <TextField
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="1"
+            fx:id="Address_TextField"/>
+
+    <Label
+            text="City: "
+            GridPane.columnIndex="0"
+            GridPane.rowIndex="2" />
+    <TextField
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="2"
+            fx:id="City_TextField"/>
+
+    <Label
+            text="State:"
+            GridPane.columnIndex ="0"
+            GridPane.rowIndex="3"/>
+    <TextField
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="3"
+            fx:id="State_TextField"/>
+
+    <Label
+            text="Zip:"
+            GridPane.columnIndex ="0"
+            GridPane.rowIndex="4"/>
+    <TextField
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="4"
+            fx:id="Zipcode_TextField"/>
+
+    <Label
+            text="First Name:"
+            GridPane.columnIndex ="0"
+            GridPane.rowIndex="5"/>
+    <TextField
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="5"
+            fx:id="FirstName_TextField"/>
+
+    <Label
+            text="Last Name:"
+            GridPane.columnIndex ="0"
+            GridPane.rowIndex="6"/>
+    <TextField
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="6"
+            fx:id="LastName_TextField"/>
+
+    <Button
+            text="Create"
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="7"
+            onMouseClicked="#Create_OnMouseClick"/>
+
+    <Button
+            text="Cancel"
+            GridPane.columnIndex="0"
+            GridPane.rowIndex="7"
+            onMouseClicked="#Cancel_OnMouseClick"/>
+</GridPane>

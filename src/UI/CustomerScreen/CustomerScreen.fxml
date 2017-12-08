@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Separator?>
+
+<GridPane   xmlns:fx="http://javafx.com/fxml"
+            alignment="center" hgap="10" vgap="10"
+            fx:controller="UI.CustomerScreen.CustomerScreenController">
+
+    <Separator
+            GridPane.rowIndex="2"
+            GridPane.columnIndex="0"
+            GridPane.columnSpan="5"/>
+
+    <Label
+            GridPane.rowIndex="3"
+            GridPane.columnIndex="0"
+            text="Customer:"
+            GridPane.halignment="RIGHT"/>
+    <Text
+            GridPane.rowIndex="3"
+            GridPane.columnIndex="1"
+            fx:id="CustomerName_Text"/>
+
+    <Label
+            GridPane.rowIndex="4"
+            GridPane.columnIndex="0"
+            text="Accounts:"
+            GridPane.halignment="RIGHT"/>
+    <ComboBox
+            GridPane.rowIndex="4"
+            GridPane.columnIndex="1"
+            fx:id="Account_ComboBox"
+            maxWidth="Infinity"
+            onAction="#Account_ComboBox_SelectionChanged"/>
+
+    <Label
+            GridPane.rowIndex="5"
+            GridPane.columnIndex="0"
+            text="Balance:"
+            GridPane.halignment="RIGHT"/>
+    <Text
+            GridPane.rowIndex="5"
+            GridPane.columnIndex="1"
+            fx:id="AccountBalance_Text"/>
+    <Button
+            GridPane.rowIndex="3"
+            GridPane.columnIndex="4"
+            text="Recent Transactions"
+            maxWidth="Infinity"
+            onMouseClicked="#RecentTransactions_OnMouseClick"/>
+
+    <Label
+            GridPane.rowIndex="6"
+            GridPane.columnIndex="0"
+            text="Interest Rate:"
+            GridPane.halignment="RIGHT"/>
+    <Text
+            GridPane.rowIndex="6"
+            GridPane.columnIndex="1"
+            fx:id="AccountInterestRate_Text"/>
+
+
+    <Text
+            GridPane.rowIndex="7"
+            GridPane.columnIndex="1"
+            fx:id="AccountStatus_Text"/>
+    <Button
+            GridPane.rowIndex="4"
+            GridPane.columnIndex="4"
+            text="Withdraw"
+            maxWidth="Infinity"
+            onMouseClicked="#Withdraw_OnMouseClick"/>
+
+
+
+    <Separator
+            GridPane.rowIndex="9"
+            GridPane.columnIndex="0"
+            GridPane.columnSpan="5"/>
+
+    <Button
+            GridPane.rowIndex="11"
+            GridPane.columnIndex="0"
+            text="Back"
+            onMouseClicked="#Back_OnMouseClick"/>
+
+
+
+</GridPane>
