@@ -2,6 +2,7 @@ package UI;
 
 import BankSystem.BankSystem;
 
+import UI.AtmCustomerChecker.AtmCustomerSearchController;
 import UI.BankManager.BankManagerController;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -14,14 +15,12 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class MainController
-{
+public class MainController {
     private BankSystem _bankSystem;
 
     public ComboBox UserType_ComboBox;
 
-    public void initialize()
-    {
+    public void initialize() {
         //Set the list of available users
         ObservableList<String> userTypeList = FXCollections.observableArrayList();
         userTypeList.addAll("Customer", "Teller", "Manager");
@@ -29,40 +28,33 @@ public class MainController
 
     }
 
-    public BankSystem get_bankSystem()
-    {
+    public BankSystem get_bankSystem() {
         return _bankSystem;
     }
 
-    public void set_bankSystem(BankSystem _bankSystem)
-    {
+    public void set_bankSystem(BankSystem _bankSystem) {
         this._bankSystem = _bankSystem;
     }
 
-    public void Exit_OnMouseClick(MouseEvent mouseEvent)
-    {
+    public void Exit_OnMouseClick(MouseEvent mouseEvent) {
         _bankSystem.ExitCheckPoint();
 
         Stage stage = (Stage) UserType_ComboBox.getScene().getWindow();
         stage.close();
     }
 
-    public void LoadUser_OnMouseClick(MouseEvent mouseEvent)
-    {
+    public void LoadUser_OnMouseClick(MouseEvent mouseEvent) {
         FXMLLoader fxmlLoader = new FXMLLoader();
 
         Stage stage = (Stage) UserType_ComboBox.getScene().getWindow();
 
-        switch (UserType_ComboBox.getValue().toString())
-        {
+        switch (UserType_ComboBox.getValue().toString()) {
             case "Manager":
                 fxmlLoader.setLocation(getClass().getResource("BankManager/BankManager.fxml"));
 
-                try
-                {
+                try {
                     fxmlLoader.load();
-                } catch (IOException e)
-                {
+                } catch (IOException e) {
                     e.printStackTrace();
                 }
 
@@ -84,11 +76,9 @@ public class MainController
                 //Navigation for the teller screen
                 fxmlLoader.setLocation(getClass().getResource("BankManager/BankManager.fxml"));
 
-                try
-                {
+                try {
                     fxmlLoader.load();
-                } catch (IOException e)
-                {
+                } catch (IOException e) {
                     e.printStackTrace();
                 }
 
@@ -107,29 +97,24 @@ public class MainController
                 return;
 
             case "Customer":
-                //TODO: Customer screen should be made. Should ask for ATM card and PIN to proceed.
-                //Navigation to the customer screen
-                fxmlLoader.setLocation(getClass().getResource("CustomerScreen/CustomerScreen.fxml"));
+                fxmlLoader.setLocation(getClass().getResource("AtmCustomerChecker/AtmCustomerSearch.fxml"));
 
-                try
-                {
+                try {
                     fxmlLoader.load();
-                } catch (IOException e)
-                {
+                } catch (IOException e) {
                     e.printStackTrace();
                 }
 
-                Parent customerParent = fxmlLoader.getRoot();
+                Parent customerAtmParent = fxmlLoader.getRoot();
 
-                stage.setTitle("Customer Screen");
+                stage.setTitle("Customer Atm Screen");
 
                 //Use setRoot instead of setScene to prevent the window resizing.
-                stage.getScene().setRoot(customerParent);
+                stage.getScene().setRoot(customerAtmParent);
 
-
-                return;
+                AtmCustomerSearchController atmCustomerSearchController = fxmlLoader.getController();
+                atmCustomerSearchController.set_bankSystem(_bankSystem);
 
         }
-
     }
 }

@@ -2,13 +2,13 @@ package BankSystem.DataAccess;
 
 import BankSystem.DataAccess.Enums.AccountType;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class CD extends Account
 {
     //region Variables
-    private Date startDate;
-    private Date endDate;
+    private LocalDate startDate;
+    private LocalDate endDate;
     //endregion Variables
 
     //region Constructor
@@ -16,9 +16,9 @@ public class CD extends Account
               double balance,
               String ssn,
               double interestRate,
-              Date dateOpened,
-              Date startDate,
-              Date endDate)
+              LocalDate dateOpened,
+              LocalDate startDate,
+              LocalDate endDate)
     {
         this.startDate = startDate;
         this.endDate = endDate;
@@ -33,25 +33,24 @@ public class CD extends Account
     //endregion Constructor
 
     //region Getters/Setters
-    public Date getStartDate()
+    public LocalDate getStartDate()
     {
         return startDate;
     }
 
-    public void setStartDate(Date startDate)
+    public void setStartDate(LocalDate startDate)
     {
         this.startDate = startDate;
     }
 
-    public Date getEndDate()
+    public LocalDate getEndDate()
     {
         return endDate;
     }
 
-    public void setEndDate(Date endDate)
+    public void setEndDate(LocalDate endDate)
     {
         this.endDate = endDate;
     }
     //endregion Getters/Setters
 }
-//end CD Class

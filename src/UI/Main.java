@@ -1,15 +1,3 @@
-/*
-This program simulates of a bank system. This system has the capabilities to allow Bank Tellers to view customer
-accounts status and the number and types of accounts the customer has. It also displays the Interest Rates and the
-Balance. The bank teller can create accounts, view recent transactions, Make deposits or payments, make withdraws or
-transfers.
-
-At the end of every operation, the user must go back to the main
-screen and click "exit" to save all changes.
-
-*/
-
-
 package UI;
 
 import BankSystem.BankSystem;

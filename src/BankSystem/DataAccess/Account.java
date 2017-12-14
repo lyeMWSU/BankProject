@@ -1,14 +1,9 @@
-/*
-This Account class is for display purposes for the customer. It shall include the Balance, the Interest Rate, a list
-of Transactions, and will display the Account Type. The account class connects to several classes such as the ATM, CD,
-Checking, Savings, and Loans.
-*/
 package BankSystem.DataAccess;
 
 import BankSystem.DataAccess.Enums.AccountType;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
 
 public abstract class Account
 {
@@ -19,7 +14,7 @@ public abstract class Account
     private double interestRate;
     private ArrayList<Transaction> transactions;
     private AccountType accountType;
-    private Date dateOpened;
+    private LocalDate dateOpened;
     //endregion Variables
 
     //region Getters/Setters
@@ -83,12 +78,12 @@ public abstract class Account
         this.accountType = accountType;
     }
 
-    public Date getDateOpened()
+    public LocalDate getDateOpened()
     {
         return dateOpened;
     }
 
-    public void setDateOpened(Date dateOpened)
+    public void setDateOpened(LocalDate dateOpened)
     {
         this.dateOpened = dateOpened;
     }
@@ -100,4 +95,3 @@ public abstract class Account
         return this.accountType + " - " + this.accountId;
     }
 }
-//end Account Class

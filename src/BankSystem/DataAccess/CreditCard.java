@@ -2,7 +2,7 @@ package BankSystem.DataAccess;
 
 import BankSystem.DataAccess.Enums.AccountType;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class CreditCard extends Loan
 {
@@ -17,11 +17,11 @@ public class CreditCard extends Loan
                       double balance,
                       String ssn,
                       double interestRate,
-                      Date dateOpened,
-                      Date dueDate,
-                      Date dateNotified,
+                      LocalDate dateOpened,
+                      LocalDate dueDate,
+                      LocalDate dateNotified,
                       double currentPaymentDue,
-                      Date lastPaymentDate,
+                      LocalDate lastPaymentDate,
                       boolean missedPayment,
                       double limit,
                       String creditCardNumber,
@@ -78,4 +78,3 @@ public class CreditCard extends Loan
     }
     //endregion Getters/Setters
 }
-//end CreditCard class

@@ -3,7 +3,7 @@ package BankSystem.DataAccess;
 import BankSystem.DataAccess.Enums.AccountType;
 import BankSystem.DataAccess.Enums.TermLoanType;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class TermLoan extends Loan
 {
@@ -17,11 +17,11 @@ public class TermLoan extends Loan
                     double balance,
                     String ssn,
                     double interestRate,
-                    Date dateOpened,
-                    Date dueDate,
-                    Date dateNotified,
+                    LocalDate dateOpened,
+                    LocalDate dueDate,
+                    LocalDate dateNotified,
                     double currentPaymentDue,
-                    Date lastPaymentDate,
+                    LocalDate lastPaymentDate,
                     boolean missedPayment,
                     TermLoanType termLoanType,
                     int years)
@@ -66,4 +66,3 @@ public class TermLoan extends Loan
     }
     //endregion Getters/Setters
 }
-//end TermLoan Class

@@ -2,7 +2,7 @@ package BankSystem.DataAccess;
 
 import BankSystem.DataAccess.Enums.AccountType;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Checking extends Account
 {
@@ -16,7 +16,7 @@ public class Checking extends Account
                     double balance,
                     String ssn,
                     double interestRate,
-                    Date dateOpened,
+                    LocalDate dateOpened,
                     int overdraftSavingsAccountId,
                     boolean isGoldDiamond)
     {
@@ -54,4 +54,3 @@ public class Checking extends Account
     }
     //endregion Getters/Setters
 }
-//end Checking Class

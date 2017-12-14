@@ -1,7 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ffb33bf-9675-4794-9aa1-a1b584ad84fd" name="Default" comment="" />
+    <list default="true" id="3ffb33bf-9675-4794-9aa1-a1b584ad84fd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/BankSystem.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/BankSystem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/ATM.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/ATM.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Account.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Account.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/CD.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/CD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Checking.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Checking.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/CreditCard.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/CreditCard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Customer.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Customer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Enums/AccountType.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Enums/AccountType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Enums/TermLoanType.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Enums/TermLoanType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Enums/TransactionType.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Enums/TransactionType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Loan.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Loan.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Managers/AccountManager.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Managers/AccountManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Managers/CustomerManager.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Managers/CustomerManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Savings.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Savings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/TermLoan.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/TermLoan.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Transaction.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/BankSystem/DataAccess/Transaction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/UI/BankManager/BankManagerController.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/UI/BankManager/BankManagerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/UI/CreateCustomer/CreateCustomerController.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/UI/CreateCustomer/CreateCustomerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/UI/CustomerScreen/CustomerScreenController.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/UI/CustomerScreen/CustomerScreenController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/UI/ErrorWindow.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/UI/ErrorWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/UI/ErrorWindowController.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/UI/ErrorWindowController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/UI/Main.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/UI/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/UI/MainController.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/UI/MainController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/UI/Validators/CustomerValidator.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/UI/Validators/CustomerValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/UI/Validators/Enums/StateCode.class" afterPath="$PROJECT_DIR$/out/production/csc4066bank/UI/Validators/Enums/StateCode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atm.txt" afterPath="$PROJECT_DIR$/atm.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cd.txt" afterPath="$PROJECT_DIR$/cd.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checking.txt" afterPath="$PROJECT_DIR$/checking.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/creditcard.txt" afterPath="$PROJECT_DIR$/creditcard.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customers.txt" afterPath="$PROJECT_DIR$/customers.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/UI/BankManager/BankManager.fxml" afterPath="$PROJECT_DIR$/out/production/csc4066bank/UI/BankManager/BankManager.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/UI/CreateCustomer/CreateCustomer.fxml" afterPath="$PROJECT_DIR$/out/production/csc4066bank/UI/CreateCustomer/CreateCustomer.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/UI/CustomerScreen/CustomerScreen.fxml" afterPath="$PROJECT_DIR$/out/production/csc4066bank/UI/CustomerScreen/CustomerScreen.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/UI/ErrorWindow.fxml" afterPath="$PROJECT_DIR$/out/production/csc4066bank/UI/ErrorWindow.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/csc4066bank/UI/MainScreen.fxml" afterPath="$PROJECT_DIR$/out/production/csc4066bank/UI/MainScreen.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/savings.txt" afterPath="$PROJECT_DIR$/savings.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/BankSystem.java" afterPath="$PROJECT_DIR$/src/BankSystem/BankSystem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/DataAccess/ATM.java" afterPath="$PROJECT_DIR$/src/BankSystem/DataAccess/ATM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/DataAccess/Account.java" afterPath="$PROJECT_DIR$/src/BankSystem/DataAccess/Account.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/DataAccess/CD.java" afterPath="$PROJECT_DIR$/src/BankSystem/DataAccess/CD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/DataAccess/Checking.java" afterPath="$PROJECT_DIR$/src/BankSystem/DataAccess/Checking.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/DataAccess/CreditCard.java" afterPath="$PROJECT_DIR$/src/BankSystem/DataAccess/CreditCard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/DataAccess/Customer.java" afterPath="$PROJECT_DIR$/src/BankSystem/DataAccess/Customer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/DataAccess/Enums/AccountType.java" afterPath="$PROJECT_DIR$/src/BankSystem/DataAccess/Enums/AccountType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/DataAccess/Enums/TermLoanType.java" afterPath="$PROJECT_DIR$/src/BankSystem/DataAccess/Enums/TermLoanType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/DataAccess/Enums/TransactionType.java" afterPath="$PROJECT_DIR$/src/BankSystem/DataAccess/Enums/TransactionType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/DataAccess/Loan.java" afterPath="$PROJECT_DIR$/src/BankSystem/DataAccess/Loan.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/DataAccess/Managers/AccountManager.java" afterPath="$PROJECT_DIR$/src/BankSystem/DataAccess/Managers/AccountManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/DataAccess/Managers/CustomerManager.java" afterPath="$PROJECT_DIR$/src/BankSystem/DataAccess/Managers/CustomerManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/DataAccess/Savings.java" afterPath="$PROJECT_DIR$/src/BankSystem/DataAccess/Savings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/DataAccess/TermLoan.java" afterPath="$PROJECT_DIR$/src/BankSystem/DataAccess/TermLoan.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankSystem/DataAccess/Transaction.java" afterPath="$PROJECT_DIR$/src/BankSystem/DataAccess/Transaction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/BankManager/BankManager.fxml" afterPath="$PROJECT_DIR$/src/UI/BankManager/BankManager.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/BankManager/BankManagerController.java" afterPath="$PROJECT_DIR$/src/UI/BankManager/BankManagerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/CreateCustomer/CreateCustomer.fxml" afterPath="$PROJECT_DIR$/src/UI/CreateCustomer/CreateCustomer.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/CreateCustomer/CreateCustomerController.java" afterPath="$PROJECT_DIR$/src/UI/CreateCustomer/CreateCustomerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreen.fxml" afterPath="$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreen.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreenController.java" afterPath="$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreenController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/ErrorWindow.fxml" afterPath="$PROJECT_DIR$/src/UI/ErrorWindow.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/ErrorWindow.java" afterPath="$PROJECT_DIR$/src/UI/ErrorWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/ErrorWindowController.java" afterPath="$PROJECT_DIR$/src/UI/ErrorWindowController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/Main.java" afterPath="$PROJECT_DIR$/src/UI/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/MainController.java" afterPath="$PROJECT_DIR$/src/UI/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/MainScreen.fxml" afterPath="$PROJECT_DIR$/src/UI/MainScreen.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/Validators/CustomerValidator.java" afterPath="$PROJECT_DIR$/src/UI/Validators/CustomerValidator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI/Validators/Enums/StateCode.java" afterPath="$PROJECT_DIR$/src/UI/Validators/Enums/StateCode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/termloan.txt" afterPath="$PROJECT_DIR$/termloan.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transactions.txt" afterPath="$PROJECT_DIR$/transactions.txt" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,103 +83,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="CreateCustomerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/CreateCustomer/CreateCustomerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UI/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="576">
+              <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding>
-                <element signature="e#1567#1568#0" expanded="true" />
-                <element signature="e#1595#1596#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/MainController.java">
+      <file leaf-file-name="customers.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customers.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2331">
-              <caret line="129" column="16" lean-forward="false" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
+            <state relative-caret-position="126">
+              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankManager.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/BankManager/BankManager.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
+      <file leaf-file-name="atm.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/atm.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2814">
-              <caret line="134" column="31" lean-forward="false" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateCustomer.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/CreateCustomer/CreateCustomer.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="57" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BankManagerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/BankManager/BankManagerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1323">
-              <caret line="109" column="30" lean-forward="false" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
-              <folding>
-                <element signature="e#1542#1543#0" expanded="true" />
-                <element signature="e#1576#1577#0" expanded="true" />
-                <element signature="e#1638#1639#0" expanded="true" />
-                <element signature="e#1684#1685#0" expanded="true" />
-                <element signature="method#CreateCustomer_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerScreen.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreen.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2016">
-              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerScreenController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreenController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Back_OnMouseClick#0;class#CustomerScreenController#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -140,11 +143,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/UI/Main.java" />
         <option value="$PROJECT_DIR$/src/UI/Validators/CustomerValidator.java" />
-        <option value="$PROJECT_DIR$/src/UI/MainController.java" />
         <option value="$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreen.fxml" />
         <option value="$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreenController.java" />
+        <option value="$PROJECT_DIR$/src/BankSystem/DataAccess/Managers/AccountManager.java" />
+        <option value="$PROJECT_DIR$/src/UI/AtmCustomerChecker/AtmCustomerSearch.fxml" />
+        <option value="$PROJECT_DIR$/src/UI/BankManager/BankManagerController.java" />
+        <option value="$PROJECT_DIR$/src/UI/AtmCustomerChecker/AtmCustomerSearchController.java" />
+        <option value="$PROJECT_DIR$/src/UI/MainController.java" />
+        <option value="$PROJECT_DIR$/src/UI/Main.java" />
       </list>
     </option>
   </component>
@@ -154,10 +161,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="width" value="1413" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="24" />
+    <option name="width" value="683" />
+    <option name="height" value="681" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -174,28 +181,98 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="csc4066bank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csc4066bank" type="462c0819:PsiDirectoryNode" />
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BankSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BankSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="DataAccess" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BankSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="DataAccess" type="462c0819:PsiDirectoryNode" />
+              <item name="Managers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="AtmCustomerChecker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="BankManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="CreateCustomer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="CustomerScreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Validators" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="settings.github" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -331,6 +408,12 @@
       <workItem from="1512681018500" duration="12052000" />
       <workItem from="1512711128847" duration="1055000" />
       <workItem from="1512750343679" duration="988000" />
+      <workItem from="1512757726703" duration="1768000" />
+      <workItem from="1512759520330" duration="132000" />
+      <workItem from="1512775417696" duration="10296000" />
+      <workItem from="1512950152395" duration="468000" />
+      <workItem from="1513209344386" duration="56000" />
+      <workItem from="1513209427242" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="fixed ssn validator error">
       <created>1512275617101</created>
@@ -364,26 +447,26 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15833000" />
+    <option name="totallyTimeSpent" value="28581000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-1" y="-4" width="1368" height="710" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34216335" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34216335" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33693695" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17348485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -412,11 +495,120 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/BankSystem/DataAccess/Managers/CustomerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="123" column="44" lean-forward="true" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/CreateCustomer/CreateCustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1998">
+          <caret line="129" column="16" lean-forward="false" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/BankManager/BankManager.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2412">
+          <caret line="134" column="31" lean-forward="false" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/CreateCustomer/CreateCustomer.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/BankManager/BankManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="109" column="30" lean-forward="false" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc;n#Account_ComboBox#0;n#BankManagerController#0" expanded="false" />
+            <element signature="n#!!doc;n#ManagerAccount_GridPane#0;n#BankManagerController#0" expanded="false" />
+            <element signature="n#!!doc;n#get_bankSystem#0;n#BankManagerController#0" expanded="false" />
+            <element signature="method#CreateCustomer_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#Account_ComboBox_SelectionChanged#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#SearchCustomers_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#CreateAccount_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#RecentTransactions_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#DepositPay_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#Withdraw_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#Transfer_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="n#!!doc;n#SetInterest_OnMouseClick#0;n#BankManagerController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreen.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#Back_OnMouseClick#0;class#CustomerScreenController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/CreateCustomer/CreateCustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -430,8 +622,8 @@
         <state relative-caret-position="252">
           <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding>
-            <element signature="e#1567#1568#0" expanded="true" />
-            <element signature="e#1595#1596#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -440,19 +632,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2331">
           <caret line="129" column="16" lean-forward="false" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/CreateCustomer/CreateCustomer.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/BankManager/BankManagerController.java">
@@ -460,35 +653,40 @@
         <state relative-caret-position="1323">
           <caret line="109" column="30" lean-forward="false" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
           <folding>
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1576#1577#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-            <element signature="e#1684#1685#0" expanded="true" />
+            <element signature="n#!!doc;n#Account_ComboBox#0;n#BankManagerController#0" expanded="false" />
+            <element signature="n#!!doc;n#ManagerAccount_GridPane#0;n#BankManagerController#0" expanded="false" />
+            <element signature="n#!!doc;n#get_bankSystem#0;n#BankManagerController#0" expanded="false" />
             <element signature="method#CreateCustomer_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#Account_ComboBox_SelectionChanged#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#SearchCustomers_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#CreateAccount_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#RecentTransactions_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#DepositPay_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#Withdraw_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#Transfer_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="n#!!doc;n#SetInterest_OnMouseClick#0;n#BankManagerController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/BankManager/BankManager.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2814">
           <caret line="134" column="31" lean-forward="false" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreen.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreen.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2016">
           <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreenController.java">
@@ -496,7 +694,7 @@
         <state relative-caret-position="1029">
           <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#Back_OnMouseClick#0;class#CustomerScreenController#0" expanded="false" />
           </folding>
         </state>
@@ -515,8 +713,8 @@
         <state relative-caret-position="252">
           <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding>
-            <element signature="e#1567#1568#0" expanded="true" />
-            <element signature="e#1595#1596#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -525,30 +723,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2331">
           <caret line="129" column="16" lean-forward="false" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/BankManager/BankManager.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2814">
           <caret line="134" column="31" lean-forward="true" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/CreateCustomer/CreateCustomer.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/BankManager/BankManagerController.java">
@@ -556,11 +754,18 @@
         <state relative-caret-position="1323">
           <caret line="109" column="30" lean-forward="true" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
           <folding>
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1576#1577#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-            <element signature="e#1684#1685#0" expanded="true" />
+            <element signature="n#!!doc;n#Account_ComboBox#0;n#BankManagerController#0" expanded="false" />
+            <element signature="n#!!doc;n#ManagerAccount_GridPane#0;n#BankManagerController#0" expanded="false" />
+            <element signature="n#!!doc;n#get_bankSystem#0;n#BankManagerController#0" expanded="false" />
             <element signature="method#CreateCustomer_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#Account_ComboBox_SelectionChanged#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#SearchCustomers_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#CreateAccount_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#RecentTransactions_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#DepositPay_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#Withdraw_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#Transfer_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="n#!!doc;n#SetInterest_OnMouseClick#0;n#BankManagerController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -570,21 +775,20 @@
         <state relative-caret-position="819">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#Back_OnMouseClick#0;class#CustomerScreenController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreen.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2142">
           <caret line="102" column="11" lean-forward="true" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/Main.java">
@@ -592,8 +796,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1567#1568#0" expanded="true" />
-            <element signature="e#1595#1596#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -603,8 +807,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1567#1568#0" expanded="true" />
-            <element signature="e#1595#1596#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -617,38 +821,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Validators/CustomerValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customers.txt">
+    <entry file="file://$PROJECT_DIR$/src/UI/ErrorWindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/ErrorWindow.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/ErrorWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -659,97 +846,268 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#Back_OnMouseClick#0;class#CustomerScreenController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BankSystem/DataAccess/Managers/AccountManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="501" column="32" lean-forward="true" selection-start-line="501" selection-start-column="32" selection-end-line="501" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BankSystem/DataAccess/Managers/CustomerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreen.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="804">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/CreateCustomer/CreateCustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
+        <state relative-caret-position="-414">
           <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/BankSystem/BankSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding>
-            <element signature="e#1567#1568#0" expanded="true" />
-            <element signature="e#1595#1596#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/BankManager/BankManager.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2814">
-          <caret line="134" column="31" lean-forward="false" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
+        <state relative-caret-position="61">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/CreateCustomer/CreateCustomer.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/UI/Validators/CustomerValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Validators/Enums/StateCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/MainScreen.fxml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/BankManager/BankManagerController.java">
+    <entry file="file://$PROJECT_DIR$/src/UI/BankManager/BankManager.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="109" column="30" lean-forward="false" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
-          <folding>
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1576#1577#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-            <element signature="e#1684#1685#0" expanded="true" />
-            <element signature="method#CreateCustomer_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="3204">
+          <caret line="178" column="43" lean-forward="false" selection-start-line="178" selection-start-column="43" selection-end-line="178" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/CreateCustomer/CreateCustomer.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cd.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/AtmCustomerChecker/AtmCustomerSearch.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/AtmCustomerChecker/AtmCustomerSearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2331">
-          <caret line="129" column="16" lean-forward="false" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreen.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/CustomerScreen/CustomerScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="655">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Back_OnMouseClick#0;class#CustomerScreenController#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/BankManager/BankManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="116" column="45" lean-forward="false" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
+          <folding>
+            <element signature="n#!!doc;n#Account_ComboBox#0;n#BankManagerController#0" expanded="false" />
+            <element signature="n#!!doc;n#ManagerAccount_GridPane#0;n#BankManagerController#0" expanded="false" />
+            <element signature="n#!!doc;n#get_bankSystem#0;n#BankManagerController#0" expanded="false" />
+            <element signature="method#CreateCustomer_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#Account_ComboBox_SelectionChanged#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#SearchCustomers_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#CreateAccount_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#RecentTransactions_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#DepositPay_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#Withdraw_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="method#Transfer_OnMouseClick#0;class#BankManagerController#0" expanded="false" />
+            <element signature="n#!!doc;n#SetInterest_OnMouseClick#0;n#BankManagerController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customers.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atm.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>csc4066bank</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

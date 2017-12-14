@@ -3,10 +3,14 @@ package UI.BankManager;
 import BankSystem.BankSystem;
 import BankSystem.DataAccess.Account;
 import BankSystem.DataAccess.Customer;
+import UI.CreateAccount.CreateAccountController;
 import UI.CreateCustomer.CreateCustomerController;
 import UI.ErrorWindow;
 import UI.MainController;
+import UI.PayDeposit.PayDepositController;
+import UI.RecentTransactions.RecentTransactionsController;
 import UI.Validators.CustomerValidator;
+import UI.Withdraw.WithdrawController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -98,7 +102,6 @@ public class BankManagerController
 
         newStage.showAndWait();
     }
-    //end CreateCustomer_OnMouseClick
 
     public void Back_OnMouseClick(MouseEvent mouseEvent)
     {
@@ -112,7 +115,6 @@ public class BankManagerController
         {
             e.printStackTrace();
         }
-        //end of  try catch block
 
         Parent parent = fxmlLoader.getRoot();
 
@@ -126,11 +128,9 @@ public class BankManagerController
         MainController mainController = fxmlLoader.getController();
         mainController.set_bankSystem(_bankSystem);
     }
-    //end Back_OnMouseClick
 
     public void Account_ComboBox_SelectionChanged(ActionEvent actionEvent)
     {
-        //TODO: Populate account information when selection is made in combobox
         if (SelectedCustomer != null && SelectedCustomerAccounts != null)
         {
             Account selectedAccount = Account_ComboBox.getValue();
@@ -141,20 +141,16 @@ public class BankManagerController
             //Create method to determine the status of an account based on type.
             AccountStatus_Text.setText("OK");
         }
-        //end if.
         else
         {
             AccountBalance_Text.setText("");
             AccountInterestRate_Text.setText("");
             AccountStatus_Text.setText("");
         }
-        //end else.
     }
-    //end Account_ComboBox_SelectionChanged
 
     public void SearchCustomers_OnMouseClick(MouseEvent mouseEvent)
     {
-        //TODO: Implement search customers button click method and populate customer data.
         if (CustomerValidator.SsnValidate(SSN_TextField.getText()))
         {
             Customer selectedCustomer = _bankSystem.CustomerManager.FindCustomer(SSN_TextField.getText());
@@ -178,46 +174,182 @@ public class BankManagerController
                 {
                     Account_ComboBox.getItems().add(account);
                 }
-                //end for loop
             }
-            //end if.
             else
             {
                 ErrorWindow errorWindow = new ErrorWindow((Stage)SSN_TextField.getScene().getWindow(),
                         "SSN not found.");
                 errorWindow.ShowError();
             }
-            //end else.
         }
-        //end if.
         else
         {
             ErrorWindow errorwindow = new ErrorWindow((Stage)SSN_TextField.getScene().getWindow(),
                     "SSN must be nine digits and be in the range of 100000000 through 999999999.\n");
             errorwindow.ShowError();
         }
-        //end else.
     }
-    //end SearchCustomers_onMouseClick
 
     public void CreateAccount_OnMouseClick(MouseEvent mouseEvent)
     {
-        //TODO: Implement the create account window for account creation.
+        if (SelectedCustomer != null)
+        {
+            Stage newStage = new Stage();
+
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("../CreateAccount/CreateAccount.fxml"));
+            try
+            {
+                fxmlLoader.load();
+            } catch (IOException e)
+            {
+                e.printStackTrace();
+            }
+
+            Parent parent = fxmlLoader.getRoot();
+            newStage.setTitle("Create Account");
+            newStage.setScene(new Scene(parent, 450, 400));
+
+            CreateAccountController createAccountController = fxmlLoader.getController();
+            createAccountController.set_bankSystem(_bankSystem);
+            createAccountController.set_currentCustomer(SelectedCustomer);
+
+            //These methods set the parent stage to the previous stage so a second window can
+            //be opened, but not allow the parent to continue until the child stage is done.
+            newStage.initModality(Modality.WINDOW_MODAL);
+            newStage.initOwner(CreateCustomer_Button.getScene().getWindow());
+
+            newStage.showAndWait();
+
+
+            ArrayList<Account> customerAccounts =
+                    _bankSystem.AccountManager.GetCustomerAccounts(SelectedCustomer.getSsn());
+
+            SelectedCustomerAccounts = null;
+
+            Account_ComboBox.getItems().clear();
+
+            SelectedCustomerAccounts = customerAccounts;
+
+            for (Account account : SelectedCustomerAccounts)
+            {
+                Account_ComboBox.getItems().add(account);
+            }
+        }
     }
 
     public void RecentTransactions_OnMouseClick(MouseEvent mouseEvent)
     {
         //TODO: Implement recent transactions window.
+        if (SelectedCustomer != null && Account_ComboBox.getValue() != null)
+        {
+            Stage newStage = new Stage();
+
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("../RecentTransactions/RecentTransactions.fxml"));
+            try
+            {
+                fxmlLoader.load();
+            } catch (IOException e)
+            {
+                e.printStackTrace();
+            }
+
+            Parent parent = fxmlLoader.getRoot();
+            newStage.setTitle("Recent Transactions");
+            newStage.setScene(new Scene(parent, 450, 400));
+
+            RecentTransactionsController recentTransactionsController = fxmlLoader.getController();
+            recentTransactionsController.set_bankSystem(_bankSystem);
+            recentTransactionsController.set_currentCustomer(SelectedCustomer);
+            recentTransactionsController.set_currentAccount(Account_ComboBox.getValue());
+
+            recentTransactionsController.PopulateTransactions();
+
+            //These methods set the parent stage to the previous stage so a second window can
+            //be opened, but not allow the parent to continue until the child stage is done.
+            newStage.initModality(Modality.WINDOW_MODAL);
+            newStage.initOwner(CreateCustomer_Button.getScene().getWindow());
+
+            newStage.showAndWait();
+        }
     }
 
     public void DepositPay_OnMouseClick(MouseEvent mouseEvent)
     {
         //TODO: Implement deposit/pay pop up window.
+        //Will need to check account type, some should not allow this -> ATM, CD
+        if (SelectedCustomer != null && Account_ComboBox.getValue() != null)
+        {
+            Stage newStage = new Stage();
+
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("../PayDeposit/PayDeposit.fxml"));
+            try
+            {
+                fxmlLoader.load();
+            } catch (IOException e)
+            {
+                e.printStackTrace();
+            }
+
+            Parent parent = fxmlLoader.getRoot();
+            newStage.setTitle("Deposit/Pay");
+            newStage.setScene(new Scene(parent, 450, 400));
+
+            PayDepositController payDepositController = fxmlLoader.getController();
+            payDepositController.set_bankSystem(_bankSystem);
+            payDepositController.set_currentCustomer(SelectedCustomer);
+            payDepositController.set_currentAccount(Account_ComboBox.getValue());
+
+            payDepositController.PopulateCurrentBalance();
+
+            //These methods set the parent stage to the previous stage so a second window can
+            //be opened, but not allow the parent to continue until the child stage is done.
+            newStage.initModality(Modality.WINDOW_MODAL);
+            newStage.initOwner(CreateCustomer_Button.getScene().getWindow());
+
+            newStage.showAndWait();
+        }
     }
 
     public void Withdraw_OnMouseClick(MouseEvent mouseEvent)
     {
         //TODO: Implement withdraw pop up window.
+        //Need to check account type here as well. ATM, CreditCard, Term loans should
+        //not allow this. CD should allow this but only during a certain period
+        if (SelectedCustomer != null && Account_ComboBox.getValue() != null)
+        {
+            Stage newStage = new Stage();
+
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("../Withdraw/Withdraw.fxml"));
+            try
+            {
+                fxmlLoader.load();
+            } catch (IOException e)
+            {
+                e.printStackTrace();
+            }
+
+            Parent parent = fxmlLoader.getRoot();
+            newStage.setTitle("Withdraw");
+            newStage.setScene(new Scene(parent, 450, 400));
+
+            WithdrawController withdrawController = fxmlLoader.getController();
+            withdrawController.set_bankSystem(_bankSystem);
+            withdrawController.set_currentCustomer(SelectedCustomer);
+            withdrawController.set_currentAccount(Account_ComboBox.getValue());
+
+            withdrawController.PopulateCurrentBalance();
+
+            //These methods set the parent stage to the previous stage so a second window can
+            //be opened, but not allow the parent to continue until the child stage is done.
+            newStage.initModality(Modality.WINDOW_MODAL);
+            newStage.initOwner(CreateCustomer_Button.getScene().getWindow());
+
+            newStage.showAndWait();
+        }
     }
 
     public void Transfer_OnMouseClick(MouseEvent mouseEvent)

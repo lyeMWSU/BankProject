@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+
+<GridPane
+          fx:controller="UI.AtmCustomerChecker.AtmCustomerSearchController"
+          xmlns:fx="http://javafx.com/fxml"
+          alignment="center" hgap="10" vgap="10">
+
+    <Separator
+            GridPane.rowIndex="2"
+            GridPane.columnIndex="0"
+            GridPane.columnSpan="5"/>
+
+    <Label
+            GridPane.rowIndex="3"
+            GridPane.columnIndex="0"
+            text="Enter Card Number:"
+            GridPane.halignment="RIGHT"/>
+    <TextField
+            GridPane.rowIndex="3"
+            GridPane.columnIndex="2"
+            fx:id="CusCardNum_Text"/>
+
+    <Label
+        GridPane.rowIndex="4"
+        GridPane.columnIndex="0"
+        text="Enter Pin Number:"
+        GridPane.halignment="RIGHT"/>
+
+    <TextField
+            GridPane.rowIndex="4"
+            GridPane.columnIndex="2"
+            fx:id="CusPinNum_Text"/>
+
+    <Separator
+            GridPane.rowIndex="9"
+            GridPane.columnIndex="0"
+            GridPane.columnSpan="5"/>
+
+    <Button
+            GridPane.rowIndex="11"
+            GridPane.columnIndex="0"
+            text="Back"
+            onMouseClicked="#Back_OnMouseClick"/>
+
+    <Button
+            GridPane.rowIndex="11"
+            GridPane.columnIndex="4"
+            text="Enter"
+            onMouseClicked="#Enter_OnMouseClick"/>
+
+
+</GridPane>

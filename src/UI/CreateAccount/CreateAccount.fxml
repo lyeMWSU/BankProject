@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<GridPane
+        alignment="center"
+        hgap="10"
+        vgap="10"
+        xmlns:fx="http://javafx.com/fxml/1"
+        xmlns="http://javafx.com/javafx/8.0.121"
+        fx:controller="UI.CreateAccount.CreateAccountController">
+
+    <Label
+        GridPane.rowIndex="0"
+        GridPane.columnIndex="0"
+        text="Select Account Type:"/>
+    <ComboBox
+        GridPane.rowIndex="0"
+        GridPane.columnIndex="1"
+        fx:id="AccountType_ComboBox"
+        onAction="#AccountType_OnSelectionChanged"/>
+
+    <Label text="Initial Balance:"
+           GridPane.columnIndex ="0"
+           GridPane.rowIndex="1"
+           fx:id="InitialBalance_Label"
+           visible="false"/>
+    <TextField
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="1"
+            fx:id="InitialBalance_TextField"
+            visible="false"/>
+
+    <Label text="Interest Rate:"
+           GridPane.columnIndex ="0"
+           GridPane.rowIndex="2"
+           fx:id="InterestRate_Label"
+           visible="false"/>
+    <TextField
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="2"
+            fx:id="InterestRate_TextField"
+            visible="false"/>
+
+    <Label text="Card Number:"
+           GridPane.columnIndex ="0"
+           GridPane.rowIndex="1"
+           fx:id="CardNumber_Label"
+           visible="false"/>
+    <TextField
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="1"
+            fx:id="CardNumber_TextField"
+            visible="false"/>
+
+    <Label text="PIN:"
+           GridPane.columnIndex ="0"
+           GridPane.rowIndex="2"
+           fx:id="PIN_Label"
+           visible="false"/>
+    <TextField
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="2"
+            fx:id="PIN_TextField"
+            visible="false"/>
+
+    <Label text="CVV:"
+           GridPane.columnIndex ="0"
+           GridPane.rowIndex="3"
+           fx:id="CVV_Label"
+           visible="false"/>
+    <TextField
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="3"
+            fx:id="CVV_TextField"
+            visible="false"/>
+
+    <Label text="Limit:"
+           GridPane.columnIndex ="0"
+           GridPane.rowIndex="4"
+           fx:id="Limit_Label"
+           visible="false"/>
+    <TextField
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="4"
+            fx:id="Limit_TextField"
+            visible="false"/>
+
+    <Label text="Years:"
+           GridPane.columnIndex ="0"
+           GridPane.rowIndex="3"
+           fx:id="Years_Label"
+           visible="false"/>
+    <TextField
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="3"
+            fx:id="Years_TextField"
+            visible="false"/>
+
+    <Button
+            text="Create"
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="7"
+            onMouseClicked="#Create_OnMouseClick"/>
+
+    <Button
+            text="Cancel"
+            GridPane.columnIndex="0"
+            GridPane.rowIndex="7"
+            onMouseClicked="#Cancel_OnMouseClick"/>
+
+</GridPane>

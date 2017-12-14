@@ -2,7 +2,7 @@ package BankSystem.DataAccess;
 
 import BankSystem.DataAccess.Enums.TransactionType;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Transaction
 {
@@ -10,7 +10,7 @@ public class Transaction
     private int transactionId;
     private TransactionType transactionType;
     private String description;
-    private Date date;
+    private LocalDate date;
     private double amount;
     private int accountId;
     //endregion Variables
@@ -19,7 +19,7 @@ public class Transaction
     public Transaction(int transactionId,
                        TransactionType transactionType,
                        String description,
-                       Date date,
+                       LocalDate date,
                        double amount,
                        int accountId)
     {
@@ -53,12 +53,12 @@ public class Transaction
         this.transactionType = transactionType;
     }
 
-    public Date getDate()
+    public LocalDate getDate()
     {
         return date;
     }
 
-    public void setDate(Date date)
+    public void setDate(LocalDate date)
     {
         this.date = date;
     }
@@ -94,4 +94,3 @@ public class Transaction
     }
     //endregion Getters/Setters
 }
-//end Transaction Class

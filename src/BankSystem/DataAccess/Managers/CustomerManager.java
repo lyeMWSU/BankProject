@@ -20,37 +20,27 @@ public class CustomerManager
     }
     //endregion Constructor
 
-    //search function for searching for customer for the bank manager
     public Customer FindCustomer(String ssn)
     {
         for (Customer customer : customers)
         {
-            //if the social security matches a customer, display the customer
             if (customer.getSsn().equals(ssn))
             {
-                //displays customer if the SS matches.
                 return customer;
             }
-            //end if.
         }
-        //end of for statement
 
-        // if the social security is not found, display null.
         return null;
     }
-    //end of FundCustomer search function
 
-    //Constructor to add a new customer
     public void AddCustomer(String ssn, String address, String city, String state,
                             String zipcode, String firstName, String lastName)
     {
         Customer newCustomer = new Customer(ssn, address, city, state,
                 zipcode, firstName, lastName);
 
-        //add new customer...
         customers.add(newCustomer);
     }
-    //end of constructor
 
     /* loadCustomers method loads the customer database file.
         * Requires a string for the name of the file to load.
@@ -67,16 +57,13 @@ public class CustomerManager
 
             while (input.hasNextLine())
             {
-                //reading...
                 String currentLine = input.nextLine();
 
-                //parse on commas...
                 String[] splitLine = currentLine.split(",");
 
                 Customer customer = new Customer(splitLine[0], splitLine[1], splitLine[2], splitLine[3],
                         splitLine[4], splitLine[5], splitLine[6]);
 
-                //add customers...
                 customers.add(customer);
             }
 
@@ -87,10 +74,7 @@ public class CustomerManager
             e.printStackTrace();
         }
     }
-    //end of LoadCustomers
 
-    /*this function is the exit button on the front screen. this function also saves everything
-    the user has done and writes to a file if new information is recorded.*/
     public void ExitCheckPoint()
     {
         PrintWriter output;
@@ -112,8 +96,5 @@ public class CustomerManager
         {
             e.printStackTrace();
         }
-        //end of catch
     }
-    //end of ExitCheckPoint function
 }
-//end of CustomerManager

@@ -38,6 +38,7 @@
             GridPane.columnIndex="1"
             fx:id="Account_ComboBox"
             maxWidth="Infinity"
+            prefWidth="192.0"
             onAction="#Account_ComboBox_SelectionChanged"/>
 
     <Label
@@ -49,12 +50,7 @@
             GridPane.rowIndex="5"
             GridPane.columnIndex="1"
             fx:id="AccountBalance_Text"/>
-    <Button
-            GridPane.rowIndex="3"
-            GridPane.columnIndex="4"
-            text="Recent Transactions"
-            maxWidth="Infinity"
-            onMouseClicked="#RecentTransactions_OnMouseClick"/>
+
 
     <Label
             GridPane.rowIndex="6"
@@ -67,10 +63,22 @@
             fx:id="AccountInterestRate_Text"/>
 
 
+    <Label
+            GridPane.rowIndex="7"
+            GridPane.columnIndex="0"
+            text="Account Status"/>
     <Text
             GridPane.rowIndex="7"
             GridPane.columnIndex="1"
             fx:id="AccountStatus_Text"/>
+
+
+    <Button
+            GridPane.rowIndex="3"
+            GridPane.columnIndex="4"
+            text="Recent Transactions"
+            maxWidth="Infinity"
+            onMouseClicked="#RecentTransactions_OnMouseClick"/>
     <Button
             GridPane.rowIndex="4"
             GridPane.columnIndex="4"

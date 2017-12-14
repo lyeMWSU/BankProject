@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import com.sun.javafx.scene.control.skin.TableHeaderRow?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<GridPane
+        alignment="center"
+        hgap="10"
+        vgap="10"
+        xmlns:fx="http://javafx.com/fxml/1"
+        xmlns="http://javafx.com/javafx/8.0.121"
+        fx:controller="UI.RecentTransactions.RecentTransactionsController"
+        prefHeight="400.0" prefWidth="600.0">
+
+    <TableView
+        GridPane.rowIndex="0"
+        GridPane.columnIndex="0"
+        fx:id="RecentTransactions_TableView"
+        GridPane.halignment="CENTER"
+        GridPane.hgrow="ALWAYS">
+        <columns>
+            <TableColumn text="Transaction Type">
+                <cellValueFactory><PropertyValueFactory property="transactionType" />
+                </cellValueFactory>
+            </TableColumn>
+
+            <TableColumn text="Description">
+                <cellValueFactory><PropertyValueFactory property="description" />
+                </cellValueFactory>
+            </TableColumn>
+
+            <TableColumn text="Date">
+                <cellValueFactory><PropertyValueFactory property="date" />
+                </cellValueFactory>
+            </TableColumn>
+
+            <TableColumn text="Amount">
+                <cellValueFactory><PropertyValueFactory property="amount" />
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+    </TableView>
+
+    <Button
+        GridPane.rowIndex="1"
+        GridPane.columnIndex="0"
+        GridPane.halignment="CENTER"
+        text="OK"
+        onMouseClicked="#OK_OnMouseClicked"
+    />
+
+</GridPane>

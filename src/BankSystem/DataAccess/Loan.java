@@ -1,34 +1,34 @@
 package BankSystem.DataAccess;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public abstract class Loan extends Account
 {
     //region Variables
-    private Date dueDate;
-    private Date dateNotified;
+    private LocalDate dueDate;
+    private LocalDate dateNotified;
     private double currentPaymentDue;
-    private Date lastPaymentDate;
+    private LocalDate lastPaymentDate;
     private boolean missedPayment;
     //endregion Variables
 
     //region Getters/Setters
-    public Date getDueDate()
+    public LocalDate getDueDate()
     {
         return dueDate;
     }
 
-    public void setDueDate(Date dueDate)
+    public void setDueDate(LocalDate dueDate)
     {
         this.dueDate = dueDate;
     }
 
-    public Date getDateNotified()
+    public LocalDate getDateNotified()
     {
         return dateNotified;
     }
 
-    public void setDateNotified(Date dateNotified)
+    public void setDateNotified(LocalDate dateNotified)
     {
         this.dateNotified = dateNotified;
     }
@@ -43,12 +43,12 @@ public abstract class Loan extends Account
         this.currentPaymentDue = currentPaymentDue;
     }
 
-    public Date getLastPaymentDate()
+    public LocalDate getLastPaymentDate()
     {
         return lastPaymentDate;
     }
 
-    public void setLastPaymentDate(Date lastPaymentDate)
+    public void setLastPaymentDate(LocalDate lastPaymentDate)
     {
         this.lastPaymentDate = lastPaymentDate;
     }
@@ -64,4 +64,3 @@ public abstract class Loan extends Account
     }
     //endregion Getters/Setters
 }
-//end Loan Class
